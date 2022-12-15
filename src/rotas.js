@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CadastroUsuario from './views/cadastro-usuario';
+import AlteracaoSalarial from './views/alteracao-salarial';
 
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ function Rotas(props) {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/cadastro-usuarios' element={<CadastroUsuario />} />
+        <Route path='/alteracao-salarial' element={<AlteracaoSalarial />} />
       </Routes>
     </BrowserRouter>
   );

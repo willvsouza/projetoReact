@@ -24,7 +24,7 @@ function Navbar(props) {
           <ul className='navbar-nav'>
             <NavbarItem
               render='true'
-              href='/cadastro-usuarios'
+              href='/alteracao-salarial'
               label='Usuários'
             />
           </ul>
