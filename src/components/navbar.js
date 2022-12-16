@@ -24,9 +24,15 @@ function Navbar(props) {
           <ul className='navbar-nav'>
             <NavbarItem
               render='true'
-              href='/alteracao-salarial'
-              label='Usuários'
+              href='/alteracao-jornada-trabalho'
+              label='Alteração de Jornada de Trabalho'
             />
+            <NavbarItem
+              render='true'
+              href='/alteracao-salarial'
+              label='Alteração Salarial'
+            />
+            
           </ul>
         </div>
       </div>
